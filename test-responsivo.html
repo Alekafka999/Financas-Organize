@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teste de Responsividade</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .test-frame { border: 2px solid #333; margin: 20px 0; }
+    .test-label { background: #333; color: white; padding: 10px; margin: 0; }
+    iframe { width: 100%; border: none; }
+  </style>
+</head>
+<body>
+  <h1>Teste de Responsividade - Organize Suas Finanças</h1>
+  
+  <div class="test-frame">
+    <h3 class="test-label">Desktop (1200px)</h3>
+    <iframe src="index.html" width="1200" height="800"></iframe>
+  </div>
+  
+  <div class="test-frame">
+    <h3 class="test-label">Tablet (768px)</h3>
+    <iframe src="index.html" width="768" height="600"></iframe>
+  </div>
+  
+  <div class="test-frame">
+    <h3 class="test-label">Mobile (375px)</h3>
+    <iframe src="index.html" width="375" height="600"></iframe>
+  </div>
+  
+  <div class="test-frame">
+    <h3 class="test-label">Mobile Pequeno (320px)</h3>
+    <iframe src="index.html" width="320" height="500"></iframe>
+  </div>
+</body>
+</html>
