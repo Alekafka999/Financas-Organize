@@ -1,13 +1,13 @@
 name: Deploy via FTP - Organize suas Finanças
 
-on:
+on: push
   push:
     branches:
       - main
 
 jobs:
   deploy:
-    name: Deploy para Locaweb
+    name: organizesuasfina2
     runs-on: ubuntu-latest
 
     steps:
@@ -21,4 +21,4 @@ jobs:
           user: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           localDir: "dist"
-          remoteDir: "/public_html/"
+          remoteDir: "/home/organizesuasfina2/"
