@@ -85,6 +85,15 @@ footer strong {
   color: #11BFAE !important;
 }
 
+.footer-link {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.footer-link:hover {
+  text-decoration: underline !important;
+}
+
 /* Media Queries para melhor controle */
 @media (max-width: 768px) {
   .container { width: 95vw; }
